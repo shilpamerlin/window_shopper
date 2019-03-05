@@ -12,12 +12,11 @@ class MainVC: UIViewController {
 
     @IBOutlet weak var wageTxt: currencyTxtField!
     @IBOutlet weak var priceTxt: currencyTxtField!
-    
     @IBOutlet weak var hoursLbl: UILabel!
     @IBOutlet weak var resultLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let calculateBtn = UIButton(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 60))
         calculateBtn.backgroundColor = #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 0.9567369435)
         calculateBtn.setTitle("Calculate", for: .normal)
